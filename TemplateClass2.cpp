@@ -8,6 +8,6 @@ using std::cout;
 using std::endl;
 int main()
 {
-    SmartArray<double> a(5);
+    SmartArray<double, 9> a;
     a.Show_Array();
 }
